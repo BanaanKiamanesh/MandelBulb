@@ -5,7 +5,7 @@ clc;
 %% Import File
 
 DIM = 512;              % Resolution
-data = importfile(128); % Import File
+data = importfile(DIM); % Import File
 
 %% Plot the Point Cloud
 pcshow(data)
